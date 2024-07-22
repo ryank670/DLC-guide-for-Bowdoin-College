@@ -1,0 +1,24 @@
+# Steps to use DLC on Bowdoin's HPC
+
+This guide was written to help with the basics of getting DLC up and running. For the most detailed user guide, [DLC offers a very handy one.](https://github.com/DeepLabCut/DeepLabCut/blob/main/docs/standardDeepLabCut_UserGuide.md) I attached links to the specific sections of the user guide that correspond to each step, so if there's something you don't understand, you can refer to the user guide for more information.
+
+I suggest reading through this entire Markdown and if any specific questions remain, take a look at DLC's user guide.
+
+This guide is still a work in progress, as there's a lot of information to cover. If you have any questions, feel free to [reach out to me(Tom)](mailto:chan@bowdoin.edu). 
+
+- [ ] Update the guide to include a full directions for DLC using the new GUI. 
+- [ ] Explaining each step's purpose and what it does.
+- [ ] Add a section about [3D projects](https://deeplabcut.github.io/DeepLabCut/docs/Overviewof3D.html#d-overview) and how to set them up. (This might need to be a separated document). 
+
+> With the new version of DeepLabCut's GUI, you can now use the GUI on Bowdoin's HPC. **If you decided to use the GUI, step 1-3 is not necessary.**
+
+## Step 1.ALT: Use interactive HPC server with GUI: 
+
+> Skip this step if you:
+> - Are **not planning on** using the new version of DeepLabCut's GUI. **OR**
+> - Read [the updated guide on Bowdoin's HPC wiki about deeplabcut](https://hpc.bowdoin.edu/hpcwiki/index.php?title=Linuxhelp:Deeplabcut#New_2024_Slurm_HPC_Cluster). 
+
+### Step 1.1: Connect to the HPC
+Login to the [HPC Web Portal](https://newhpcweb.bowdoin.edu) at https://newhpcweb.bowdoin.edu using your Bowdoin login name **(not email address, no `@bowdoin.edu`)** and password.
+Select the Interactive Applications menu and choose the "Bowdoin HPC Desktop", request a session with at least 16GB of memory. Press the Blue Launch button. Wait several seconds as the Cluster sets up the job, then press the blue Launch Bowdoin HPC Desktop button.
+
